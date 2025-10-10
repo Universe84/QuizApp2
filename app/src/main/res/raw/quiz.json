@@ -1,0 +1,108 @@
+[
+  {
+    "question" : "What is your superpower",
+    "choices" : ["Flying", "Extreme Luck", "Super Speed", "Super Strength"],
+    "answers" : [20, 80, 60, 20]
+  },
+
+  {
+    "question" : "What is your fruit",
+    "choices" : ["Mango", "Blueberry", "Banana", "Apple"],
+    "answers" : [20, 80, 60, 40]
+  },
+  {
+    "question" : "What is your tree",
+    "choices": ["Oak", "Red Wood", "Birch", "Binary"],
+    "answers" : [80, 40, 60, 20]
+  },
+  {
+    "question" : "Do you like school",
+    "choices" : ["Yes", "No"],
+    "answers" : [10 , 60]
+  },
+  {
+    "question" : "Do you like sports",
+    "choices" : ["Yes", "No"],
+    "answers" : [30, 10]
+  },
+  {
+    "question" : "Do you looove spending money",
+    "choices" : ["Yes", "No"],
+    "answers" : [50, 10]
+  },
+  {
+    "question" : "What's your subject",
+    "choices" : ["Math", "Art", "History", "Chemistry"],
+    "answers" : [10, 80, 50, 30]
+  },
+  {
+    "question" : "What is the animal of choice",
+    "choices" : ["Dog", "Cat", "Bird", "Fish"],
+    "answers" : [60, 80, 40, 20]
+  },
+  {
+    "question" : "What Streaming Service",
+    "choices" : ["Amazon Prime", "Apple TV", "Netflix", "Disney+"],
+    "answers" : [20, 40, 60, 80]
+  },
+  {
+    "question" : "What is your Star Sign",
+    "choices" : ["Leo", "Capricorn", "Scorpio", "Aquarius", "Saggitarius", "Cancer", "Gemini", "Libra", "Aries", "Libra", "Taurus", "Pisces"],
+    "answers" : [60, 56, 3, 7, 5, 14, 43, 28, 16, 38, 29, 26]
+  },
+  {
+    "question" : "What is your favorite type of gambling",
+    "choices" : ["Sports Betting", "Roulette", "Black Jack", "Scratch Cards"],
+    "answers" : [30, 70, 50, 80]
+  },
+  {
+    "question" : "Do you love Clash Royale",
+    "choices" : ["yes", "no"],
+    "answers" : [50, 20]
+  },
+  {
+    "question" : "Are you an Alchoholic",
+    "choices" : ["yes", "no"],
+    "answers" : [60, 30]
+  },
+  {
+    "question" : "Whats your favorite weather",
+    "choices" : ["Sunny", "Cloudy", "Rainy", "Windy"],
+    "answers" : [20, 40, 70, 50]
+  },
+  {
+    "question" : "MacOS vs WindowsOS vs LinuxOS",
+    "choices" : ["Mac", "Windows", "Linux"],
+    "answers" : ["30", "80", "10"]
+  },
+  {
+    "question" : "You have a 100% chance to get 1 million dollars or a 50% chance for 100 million",
+    "choices" : ["100 million", "1 million"],
+    "answers" : [60, 0]
+  },
+  {
+    "question" : "Are you good at chess",
+    "choices" : ["yes", "no"],
+    "answers" : [10, 40]
+  },
+  {
+    "question" : "Whats the derivative of arctangent",
+    "choices" : ["1/((x^2) + 1))", "-1/sqrt(1-(x^2))", "2x", "tangent"],
+    "answers" : [10, 30, 60, 80]
+  },
+  {
+    "question" : "Heads or Tails",
+    "choices" : ["Heads", "Tails"],
+    "answers" : [100, 0]
+  },
+  {
+    "question" : "Heads or Tails Again",
+    "choices" : ["Heads or Tails"],
+    "answers" : [0, 100]
+  },
+  {
+    "question" : "Favorite Pet",
+    "choices" : ["Dragon", "Dog", "Guinea Pig", "Fish"],
+    "answers" : [70, 20, 40, 60]
+  }
+]
