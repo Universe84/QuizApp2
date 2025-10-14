@@ -97,7 +97,7 @@
   },
   {
     "question" : "Heads or Tails Again",
-    "choices" : ["Heads or Tails"],
+    "choices" : ["Heads", "Tails"],
     "answers" : [0, 100]
   },
   {
