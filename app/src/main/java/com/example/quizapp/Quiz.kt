@@ -4,7 +4,7 @@ class Quiz (private val questions : List<QuizQuestion>){
     var points = 0
     var currentQuestion = 1
     var answerPicked = 0
-
+//use the questions list
     fun areThereMoreQuestions() : Boolean{
         return currentQuestion > questions.size
     }

@@ -1,4 +1,4 @@
-[
+
   {
     "question": "¿Cuál es tu superpoder?",
     "choices": ["Volar", "Suerte Extrema", "Supervelocidad", "Superfuerza"],
@@ -105,4 +105,3 @@
     "choices": ["Dragón", "Perro", "Conejillo de Indias", "Pez"],
     "answers": [70, 20, 40, 60]
   }
-]
