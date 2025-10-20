@@ -17,18 +17,18 @@
   },
   {
     "question" : "Do you like school",
-    "choices" : ["Yes", "No"],
-    "answers" : [10 , 60]
+    "choices" : ["Yes", "No", "So-So", "Whats school"],
+    "answers" : [10 , 60, 30, 80]
   },
   {
     "question" : "Do you like sports",
-    "choices" : ["Yes", "No"],
-    "answers" : [30, 10]
+    "choices" : ["Yes", "No", "So-So", "What are sports"],
+    "answers" : [30, 10, 20, 10]
   },
   {
     "question" : "Do you looove spending money",
-    "choices" : ["Yes", "No"],
-    "answers" : [50, 10]
+    "choices" : ["Yes", "No", "money's gone","Whats money"],
+    "answers" : [50, 30, 80, 20]
   },
   {
     "question" : "What's your subject",
@@ -46,9 +46,9 @@
     "answers" : [20, 40, 60, 80]
   },
   {
-    "question" : "What is your Star Sign",
-    "choices" : ["Leo", "Capricorn", "Scorpio", "Aquarius", "Saggitarius", "Cancer", "Gemini", "Libra", "Aries", "Libra", "Taurus", "Pisces"],
-    "answers" : [60, 56, 3, 7, 5, 14, 43, 28, 16, 38, 29, 26]
+    "question" : "How many pounds of potatoes have you eaten in your life",
+    "choices" : ["100", "20", "50", "5"],
+    "answers" : [100, 20, 50 ,5]
   },
   {
     "question" : "What is your favorite type of gambling",
@@ -57,13 +57,13 @@
   },
   {
     "question" : "Do you love Clash Royale",
-    "choices" : ["yes", "no"],
-    "answers" : [50, 20]
+    "choices" : ["yes", "no", "so-so", "whats clash royale"],
+    "answers" : [50, 20, 30, 10]
   },
   {
     "question" : "Are you an Alchoholic",
-    "choices" : ["yes", "no"],
-    "answers" : [60, 30]
+    "choices" : ["yes", "no", "meh", "whats alcohol"],
+    "answers" : [60, 30, 80, 10]
   },
   {
     "question" : "Whats your favorite weather",
@@ -71,19 +71,19 @@
     "answers" : [20, 40, 70, 50]
   },
   {
-    "question" : "MacOS vs WindowsOS vs LinuxOS",
-    "choices" : ["Mac", "Windows", "Linux"],
-    "answers" : ["30", "80", "10"]
+    "question" : "MacOS vs WindowsOS vs LinuxOS vs iOS",
+    "choices" : ["Mac", "Windows", "Linux", "iOS"],
+    "answers" : [30, 50, 10, 80]
   },
   {
-    "question" : "You have a 100% chance to get 1 million dollars or a 50% chance for 100 million",
-    "choices" : ["100 million", "1 million"],
-    "answers" : [60, 0]
+    "question" : "You have a 100% chance to get 1 million dollars or a 50% chance for 100 million or a 25% chance for 1 billion or a 10% chance for 100 billion",
+    "choices" : ["100 million", "1 million", "1 billion", "100 billion"],
+    "answers" : [30, 0, 50, 80]
   },
   {
     "question" : "Are you good at chess",
-    "choices" : ["yes", "no"],
-    "answers" : [10, 40]
+    "choices" : ["yes", "no", "so-so", "whats chess"],
+    "answers" : [10, 40, 30, 10]
   },
   {
     "question" : "Whats the derivative of arctangent",
@@ -91,18 +91,13 @@
     "answers" : [10, 30, 60, 80]
   },
   {
-    "question" : "Heads or Tails",
-    "choices" : ["Heads", "Tails"],
-    "answers" : [100, 0]
+    "question" : "Pick a number 1-4",
+    "choices" : ["1", "2", "3","4"],
+    "answers" : [100, 0, 0, 0]
   },
   {
-    "question" : "Heads or Tails Again",
-    "choices" : ["Heads", "Tails"],
-    "answers" : [0, 100]
-  },
-  {
-    "question" : "Favorite Pet",
-    "choices" : ["Dragon", "Dog", "Guinea Pig", "Fish"],
-    "answers" : [70, 20, 40, 60]
+    "question" : "Pick a number 1-4 again",
+    "choices" : ["1", "2", "3","4"],
+    "answers" : [0, 100, 0 ,0]
   }
 ]

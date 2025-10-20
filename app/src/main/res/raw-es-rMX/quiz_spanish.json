@@ -1,0 +1,112 @@
+[
+  {
+    "question": "¿Cuál es tu superpoder?",
+    "choices": ["Volar", "Suerte Extrema", "Supervelocidad", "Superfuerza"],
+    "answers": [20, 80, 60, 20]
+  },
+
+  {
+    "question": "¿Cuál es tu fruta?",
+    "choices": ["Mango", "Arándano", "Plátano", "Manzana"],
+    "answers": [20, 80, 60, 40]
+  },
+  {
+    "question": "¿Cuál es tu árbol?",
+    "choices": ["Roble", "Madera Roja", "Abedul", "Binario"],
+    "answers": [80, 40, 60, 20]
+  },
+  {
+    "question": "¿Te gusta la escuela?",
+    "choices": ["Sí", "No", "Regular", "¿Qué es la escuela?"],
+    "answers": [10, 60, 30, 80]
+  },
+  {
+    "question": "¿Te gustan los deportes?",
+    "choices": ["Sí", "No", "Regular", "¿Qué son los deportes?"],
+    "answers": [30, 10, 20, 10]
+  },
+  {
+    "question": "¿Te encanta gastar dinero?",
+    "choices": ["Sí", "No", "Dinero es cero", "¿Qué es el dinero?"],
+    "answers": [50, 30, 80, 20]
+  },
+  {
+    "question": "¿Cuál es tu materia?",
+    "choices": ["Matemáticas", "Arte", "Historia", "Química"],
+    "answers": [10, 80, 50, 30]
+  },
+  {
+    "question": "¿Cuál es el animal que elegiste?",
+    "choices": ["Perro", "Gato", "Pájaro", "Pez"],
+    "answers": [60, 80, 40, 20]
+  },
+  {
+    "question": "¿Qué servicio de streaming?",
+    "choices": ["Amazon Prime", "Apple TV", "Netflix", "Disney+"],
+    "answers": [20, 40, 60, 80]
+  },
+  {
+    "question": "¿Cuántos kilos de patatas has comido en tu vida?",
+    "choices": ["100", "20", "50", "5"],
+    "answers": [100, 20, 50, 5]
+  },
+  {
+    "question": "¿Cuál es tu tipo de juego favorito?",
+
+    "choices": ["Apuestas deportivas", "Ruleta", "Black Jack", "Rasca y Gana"],
+
+    "answers": [30, 70, 50, 80]
+  },
+  {
+    "question": "¿Te gusta Clash Royale?",
+    "choices": ["Sí", "No", "Regular", "¿Qué es Clash Royale?"],
+
+    "answers": [50, 20, 30, 10]
+  },
+  {
+    "question": "¿Eres alcohólico?",
+    "choices": ["Sí", "No", "Meh", "¿Qué es el alcohol?"],
+
+    "answers": [60, 30, 80, 10]
+  },
+  {
+    "question": "¿Cuál es tu clima favorito?"
+    "choices": ["Soleado", "Nublado", "Lluvioso", "Venoso"],
+    "answers": [20, 40, 70, 50]
+  },
+  {
+    "question": "MacOS vs. WindowsOS vs. LinuxOS vs. iOS",
+    "choices": ["Mac", "Windows", "Linux", "iOS"],
+    "answers": [30, 50, 10, 80]
+  },
+  {
+    "question": "Tienes un 100% de posibilidades de ganar 1 millón de dólares, un 50% de posibilidades de ganar 100 millones, un 25% de posibilidades de ganar 1.000 millones, o un 10% de posibilidades de ganar 100.000 millones",
+    "choices": ["100 millones", "1 millón", "1.000 millones", "100.000 millones"],
+    "answers": [30, 0, 50, 80]
+  },
+  {
+    "question": "¿Eres bueno en ajedrez?",
+
+    "choices": ["sí", "no", "regular", "¿qué es ajedrez?"],
+
+    "answers": [10, 40, 30, 10]
+  },
+  {
+    "question": "¿Cuál es la derivada de la arcotangente?",
+
+    "choices": ["1/((x^2) + 1))", "-1/sqrt(1-(x^2))", "2x", "tangente"],
+
+    "answers": [10, 30, 60, 80]
+  },
+  {
+    "question": "Elige un número del 1 al 4",
+
+    "choices": ["1", "2", "3","4"],
+    "answers": [100, 0, 0, 0]
+  },
+  {
+    "question": "Elige un número del 1 al 4 otra vez",
+    "choices": ["1", "2", "3", "4"],
+    "answers": [0, 100, 0, 0]
+  }
+]

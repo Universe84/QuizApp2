@@ -51,7 +51,43 @@ class MainActivity : AppCompatActivity() {
         bottomLeft = findViewById(R.id.button_main_bottomLeft)
         bottomRight = findViewById(R.id.button_main_bottomRight)
 
-        currentQuestion.text = questions.[quizApp.currentQuestion]
+
+        currentQuestion.text = quizApp.getCurrentQuestion()
+        topLeft.text = quizApp.getCurrentAnswer(0)
+        topRight.text = quizApp.getCurrentAnswer(1)
+        bottomLeft.text = quizApp.getCurrentAnswer(2)
+        bottomRight.text = quizApp.getCurrentAnswer(3)
+
+        topLeft.setOnClickListener{
+            quizApp.increasePoints(0)
+            updateQuestion(quizApp)
+        }
+
+        topRight.setOnClickListener{
+            quizApp.increasePoints(1)
+            updateQuestion(quizApp)
+        }
+
+        bottomLeft.setOnClickListener{
+            quizApp.increasePoints(2)
+            updateQuestion(quizApp)
+        }
+
+        bottomRight.setOnClickListener{
+            quizApp.increasePoints(3)
+            updateQuestion(quizApp)
+        }
+
+
+
+    }
+    fun updateQuestion(orange : Quiz ){
+        orange.increaseCurrentQuestion()
+        topLeft.text = orange.getCurrentAnswer(0)
+        topRight.text = orange.getCurrentAnswer(1)
+        bottomLeft.text = orange.getCurrentAnswer(2)
+        bottomRight.text = orange.getCurrentAnswer(3)
+        currentQuestion.text = orange.getCurrentQuestion()
     }
 
 

@@ -2,34 +2,29 @@ package com.example.quizapp
 
 class Quiz (private val questions : List<QuizQuestion>){
     var points = 0
-    var currentQuestion = 1
-    var answerPicked = 0
+    var currentQuestion = 0
+
 //use the questions list
     fun areThereMoreQuestions() : Boolean{
         return currentQuestion > questions.size
     }
 
-    fun getCurrentQuestion() : Int{
-        return currentQuestion
+    fun getCurrentQuestion() : String{
+        return questions[currentQuestion].question
     }
 
-    fun increaseCurrentQuestion() : Void{
+    fun increaseCurrentQuestion(){
         currentQuestion++
     }
 
-    fun getPoints() : Int{
-        return points
+    fun increasePoints(orange : Int){
+        points += questions[currentQuestion].answers[orange]
+
     }
 
-    fun increasePoints() : Void{
-        points += questions[currentQuestion].answers[answerPicked]
+    fun getCurrentAnswer(orange : Int) : String{
+        return questions[currentQuestion].choices[orange]
     }
 
-    fun setAnswerPicked(whatWasPicked : Int){
-        answerPicked = whatWasPicked
-    }
 
-    fun getAnswerPicked() : Int{
-        return answerPicked
-    }
 }
