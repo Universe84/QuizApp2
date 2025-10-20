@@ -70,7 +70,7 @@
     "answers": [60, 30, 80, 10]
   },
   {
-    "question": "¿Cuál es tu clima favorito?"
+    "question": "¿Cuál es tu clima favorito?",
     "choices": ["Soleado", "Nublado", "Lluvioso", "Venoso"],
     "answers": [20, 40, 70, 50]
   },

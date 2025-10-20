@@ -6,7 +6,7 @@ class Quiz (private val questions : List<QuizQuestion>){
 
 //use the questions list
     fun areThereMoreQuestions() : Boolean{
-        return currentQuestion > questions.size
+        return currentQuestion < 19
     }
 
     fun getCurrentQuestion() : String{

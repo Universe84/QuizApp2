@@ -2,10 +2,13 @@ package com.example.quizapp
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.Group
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.gson.Gson
@@ -23,6 +26,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var topRight : Button
     private lateinit var bottomLeft : Button
     private lateinit var bottomRight: Button
+
+    private lateinit var endScore : TextView
+    private lateinit var theQuiz : Group
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,13 +56,27 @@ class MainActivity : AppCompatActivity() {
         topRight = findViewById(R.id.button_main_topRight)
         bottomLeft = findViewById(R.id.button_main_bottomLeft)
         bottomRight = findViewById(R.id.button_main_bottomRight)
+        endScore = findViewById(R.id.textView_main_score)
+        theQuiz = findViewById(R.id.group)
+
+        if(!quizApp.areThereMoreQuestions()){
+            theQuiz.setVisibility(GONE)
+            endScore.text = quizApp.points.toString()
+            endScore.setVisibility(VISIBLE)
+
+        }
+        else{
+            currentQuestion.text = quizApp.getCurrentQuestion()
+            topLeft.text = quizApp.getCurrentAnswer(0)
+            topRight.text = quizApp.getCurrentAnswer(1)
+            bottomLeft.text = quizApp.getCurrentAnswer(2)
+            bottomRight.text = quizApp.getCurrentAnswer(3)
+        }
 
 
-        currentQuestion.text = quizApp.getCurrentQuestion()
-        topLeft.text = quizApp.getCurrentAnswer(0)
-        topRight.text = quizApp.getCurrentAnswer(1)
-        bottomLeft.text = quizApp.getCurrentAnswer(2)
-        bottomRight.text = quizApp.getCurrentAnswer(3)
+
+
+
 
         topLeft.setOnClickListener{
             quizApp.increasePoints(0)
@@ -77,6 +97,7 @@ class MainActivity : AppCompatActivity() {
             quizApp.increasePoints(3)
             updateQuestion(quizApp)
         }
+
 
 
 
