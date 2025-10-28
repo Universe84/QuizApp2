@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var endScore : TextView
     private lateinit var theQuiz : Group
+    private lateinit var theTitle : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,20 +59,14 @@ class MainActivity : AppCompatActivity() {
         bottomRight = findViewById(R.id.button_main_bottomRight)
         endScore = findViewById(R.id.textView_main_score)
         theQuiz = findViewById(R.id.group)
+        theTitle = findViewById(R.id.textView_main_title)
 
-        if(!quizApp.areThereMoreQuestions()){
-            theQuiz.setVisibility(GONE)
-            endScore.text = quizApp.points.toString()
-            endScore.setVisibility(VISIBLE)
-
-        }
-        else{
-            currentQuestion.text = quizApp.getCurrentQuestion()
-            topLeft.text = quizApp.getCurrentAnswer(0)
-            topRight.text = quizApp.getCurrentAnswer(1)
-            bottomLeft.text = quizApp.getCurrentAnswer(2)
-            bottomRight.text = quizApp.getCurrentAnswer(3)
-        }
+        currentQuestion.text = quizApp.getCurrentQuestion()
+        theTitle.text = resources.getString(R.string.app_name)
+        topLeft.text = quizApp.getCurrentAnswer(0)
+        topRight.text = quizApp.getCurrentAnswer(1)
+        bottomLeft.text = quizApp.getCurrentAnswer(2)
+        bottomRight.text = quizApp.getCurrentAnswer(3)
 
 
 
@@ -104,11 +99,20 @@ class MainActivity : AppCompatActivity() {
     }
     fun updateQuestion(orange : Quiz ){
         orange.increaseCurrentQuestion()
-        topLeft.text = orange.getCurrentAnswer(0)
-        topRight.text = orange.getCurrentAnswer(1)
-        bottomLeft.text = orange.getCurrentAnswer(2)
-        bottomRight.text = orange.getCurrentAnswer(3)
-        currentQuestion.text = orange.getCurrentQuestion()
+
+        if(!orange.areThereMoreQuestions()){
+            theQuiz.setVisibility(GONE)
+            endScore.text = orange.getGambler(resources)
+            endScore.setVisibility(VISIBLE)
+
+        }
+        else{
+            currentQuestion.text = orange.getCurrentQuestion()
+            topLeft.text = orange.getCurrentAnswer(0)
+            topRight.text = orange.getCurrentAnswer(1)
+            bottomLeft.text = orange.getCurrentAnswer(2)
+            bottomRight.text = orange.getCurrentAnswer(3)
+        }
     }
 
 

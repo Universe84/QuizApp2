@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">apple</string>
+    <string name="you_are">"Tu eres "</string>
+    <string name="black_jack">Tu Eres Veintiuna</string>
+    <string name="clash_royale">Tu Eres Clash Royale</string>
+    <string name="roulette">Tu Eres ruleta</string>
+    <string name="poker">Tu Eres Póker</string>
+    <string name="app_name">¿En qué juego de apuestas estás?</string>
 </resources>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">apple</string>
-    <string name="score" translatable="false">sapple</string>
+    <string name="you_are">"You are "</string>
+    <string name="black_jack">You Are Black Jack</string>
+    <string name="clash_royale">You Are Clash Royale</string>
+    <string name="roulette">You Are Roulette</string>
+    <string name="poker">You Are Poker</string>
+    <string name="app_name">What Gambling Game Are You?</string>
 </resources>
